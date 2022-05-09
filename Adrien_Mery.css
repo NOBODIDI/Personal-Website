@@ -1,4 +1,23 @@
 /*this is the CSS pages*/
-h1{
-    font-family: monospace; 
+header{
+    text-align: center;
+}
+nav{
+    word-spacing: 30px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h2{
+    /*background-color: white;*/
+    color: black; 
+}
+
+.alignright{
+    float: right;
+}
+
+.highlight{
+    background-color: white;
 }
