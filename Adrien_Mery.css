@@ -1,27 +1,40 @@
-/*this is the CSS pages*/
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #0e387a;
+    color: #9fafca;
+}
+
 header{
     text-align: center;
 }
+
+h1{
+    font-size: 60px;
+}
+
+img{
+    text-align: right;
+}
+
 nav{
     word-spacing: 30px;
 }
 
 a{
-    color: black; 
+    color: #0e387a; 
     text-decoration: none;
 }
+
 a:hover{
     color: blue;
     text-decoration: underline;
 
 }
-body{
-    background-color: black;
-    color: white;
-}
+
 h2{
     /*background-color: white;*/
-    color: black; 
+    color: #0e387a; 
 }
 
 .alignright{
@@ -29,5 +42,6 @@ h2{
 }
 
 .highlight{
-    background-color: white;
+    padding: 4px 10px; 
+    background-color: #9fafca;
 }
