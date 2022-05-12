@@ -28,7 +28,6 @@ nav{
     }
 }
 
-
 a{
     color: #0e387a; 
     text-decoration: none;
@@ -40,9 +39,45 @@ a:hover{
 
 }
 
+.gridelts{
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+    grid-template-areas:
+        "e p p p"
+        "e p p p"
+        "s w w w"
+        "s x x x"
+        ;
+    grid-gap: 10px;
+}
+
 h2{
     /*background-color: white;*/
     color: #0e387a; 
+}
+
+#edu{
+    grid-area: e; 
+    border: 3px solid #9fafca; 
+    padding: 5px; 
+}
+
+#ski{
+    grid-area: s; 
+    border: 3px solid #9fafca; 
+    padding: 5px; 
+}
+
+#pro{
+    grid-area: p; 
+}
+
+#wor{
+    grid-area: w; 
+}
+
+#ext{
+    grid-area: x; 
 }
 
 .alignright{
