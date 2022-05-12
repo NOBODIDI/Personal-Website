@@ -21,6 +21,14 @@ nav{
     word-spacing: 30px;
 }
 
+@media all and (max-device-width: 320px) {
+    nav{
+        display: block; 
+        margin: 5px 0px; 
+    }
+}
+
+
 a{
     color: #0e387a; 
     text-decoration: none;
@@ -45,3 +53,4 @@ h2{
     padding: 4px 10px; 
     background-color: #9fafca;
 }
+
